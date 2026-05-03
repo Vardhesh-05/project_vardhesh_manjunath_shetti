@@ -1,0 +1,25 @@
+# ── Raw dataset ───────────────────────────────────────────────────
+# The full Bonn EEG dataset (~500 .txt files) is not committed.
+# Download instructions are in README.md.
+raw_data/
+ 
+# ── Python cache ──────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+ 
+# ── Virtual environments ──────────────────────────────────────────
+venv/
+env/
+.env/
+*.egg-info/
+ 
+# ── Jupyter ───────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+ 
+# ── OS files ──────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+ 
